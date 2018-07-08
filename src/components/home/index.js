@@ -30,7 +30,7 @@ const Home = () => (
             onClick={() => event("Pizza", "Home")}
             to="/pizza"
           >
-            <img src="https://elwood.technology/icon.png" alt="Pizza" />
+            <img src="https://dcommonslab.netlify.com/icon.png" alt="Pizza" />
           </Link>
           DCommons Lab
         </h1>
