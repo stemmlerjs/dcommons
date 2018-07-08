@@ -14,7 +14,7 @@ const How = ({ children, showEmailButton, onEmailClick }) => (
         <div>
           <p>
             We're a team of talented JavaScript developers & product designers. We bring together development, design, 
-            product management &amp; our clients to create an integrated team; focused 
+            project management &amp; our clients to create an integrated team; focused 
             on building stunning products with modern web technology.  
             We have one hourly rate for all our resources, to provide our 
             clients maximum flexibility and support.
