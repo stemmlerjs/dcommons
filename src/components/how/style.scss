@@ -1,0 +1,168 @@
+.c-how {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+
+  &-main {
+    border-radius: 2px;
+    width: 100%;
+    max-width: 800px;
+    z-index: 1;
+    position: relative;
+    padding: 2rem 2rem 1.5rem;
+    margin-top: 0%;
+    background: #fff;
+
+    &:before {
+      content: " ";
+      transition: box-shadow 0.3s ease-in;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: skewy(-1deg);
+      box-shadow: rgba(#666, 0.1) 0 0 20px;
+    }
+
+    &:hover:before {
+      box-shadow: rgba(#666, 0.2) 0 0 40px;
+    }
+  }
+
+  p {
+    line-height: 1.8;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &-info {
+    display: flex;
+
+    &-price {
+      font-size: 0.8rem;
+      margin-left: 3rem;
+      text-align: right;
+
+      strong {
+        display: block;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    small {
+      transition: opacity 0.3s;
+      font-weight: 300;
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+    h3 small {
+      opacity: 1;
+    }
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  &:before {
+    content: "";
+    z-index: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(#f5f9ff, 0.9);
+    opacity: 0.5;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    transform: skewy(-1deg);
+  }
+
+  &-email {
+    position: relative;
+    display: flex;
+    padding: 0.75rem 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    * {
+      z-index: 1;
+    }
+
+    span {
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:before {
+      content: " ";
+
+      transform: skewy(-1deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    &-main {
+      background: transparent;
+    }
+
+    &-info {
+      display: block;
+
+      &-price {
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    &-email {
+      display: none;
+    }
+
+    &:before {
+      height: calc(100% + 5rem);
+      top: -2rem;
+    }
+
+    div:before {
+      box-shadow: none;
+      background: transparent;
+      padding: 0 2rem;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    ul {
+      padding-bottom: 0;
+    }
+
+    ul li {
+      flex: 1 100%;
+    }
+  }
+}
