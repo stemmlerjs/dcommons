@@ -5,8 +5,7 @@ import EmailIcon from "react-icons/lib/fa/envelope";
 import "./style.scss";
 
 const whatWeDo = [
-  "React / Redux & React Native",
-  "Modern JavaScript Frameworks",
+  "Modern JavaScript application development",
   "Mobile App Development",
   "Web Application Development",
   "Tech Stack Migration",

@@ -52,7 +52,7 @@ const Home = () => (
 
     <WeDo onEmailClick={onEmailClick("wedo")}>
       <h3>
-        Let&#39;s Talk... <small>over some good coffee!</small>
+        Let&#39;s Talk... <small>maybe over some good coffee!</small>
       </h3>
     </WeDo>
     <Footer />

@@ -8,7 +8,7 @@ const Header = () => (
     <Link className="logo" to="/"></Link>
     <div>
       <h1>Round Up</h1>
-      <h2>from Elwood Technology</h2>
+      <h2>from DCommons Lab</h2>
     </div>
   </header>
 )
