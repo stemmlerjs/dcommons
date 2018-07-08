@@ -15,7 +15,7 @@ const How = ({ children, showEmailButton, onEmailClick }) => (
           <p>
             We bring together development, design, product management &amp; our
             clients to create one integrated team; focused on building amazing
-            products.  We have one hourly
+            products with Modern JavaScript technologies.  We have one hourly
             rate for all our resources, to provide our clients maximum
             flexibility and support.
           </p>

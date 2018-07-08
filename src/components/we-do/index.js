@@ -7,12 +7,13 @@ import "./style.scss";
 const whatWeDo = [
   "React / Redux & React Native",
   "Modern JavaScript Frameworks",
-  "Node.js",
-  "UI / UX Design",
-  "Prototyping",
-  "App Development (iOS, Android)",
-  "System Architecture",
-  "Content Management Systems",
+  "Mobile App Development",
+  "Web Application Development",
+  "Tech Stack Migration",
+  "Agile Product Design",
+  "Development Process Consulting",
+  "Web & Mobile Analytics",
+  "System Architecture"
   // "WordPress Customization",
 ];
 
